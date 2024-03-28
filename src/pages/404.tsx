@@ -6,8 +6,6 @@ import Header from 'components/common/header'
 import Footer from 'components/common/footer'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const NotFoundPageWrapper = styled.div``
-
 const NotFound = styled.div`
   padding-top: 200px;
   min-height: calc(100vh - 185px);
@@ -33,7 +31,7 @@ const GoToMainButton = styled(Link)`
 
 const NotFoundPage: FunctionComponent = function () {
   return (
-    <NotFoundPageWrapper>
+    <div>
       <GlobalStyle />
       <Header />
       <NotFound className="contents-wrapper">
@@ -48,7 +46,7 @@ const NotFoundPage: FunctionComponent = function () {
         <GoToMainButton to="/">Go Home →</GoToMainButton>
       </NotFound>
       <Footer />
-    </NotFoundPageWrapper>
+    </div>
   )
 }
 
