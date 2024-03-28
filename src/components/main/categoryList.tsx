@@ -38,6 +38,7 @@ const CategoryButton = styled.button`
 `
 
 const CategoryListWrapper = styled.ul`
+  width: 100%;
   position: absolute;
   background: var(--bg-default);
   padding: 45px 0;
