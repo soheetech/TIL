@@ -11,7 +11,7 @@ const defaultStyle = css`
     --color-black: #242424;
     --color-gray: rgba(0, 0, 0, 0.1);
     --color-graytext: #6b6b6b;
-    --color-green: #99b83e;
+    --color-green: #77b255;
     --font-serif: 'Lora', serif;
     --font-italic: italic 500 1rem 'Lora', serif;
     --font-small: 0.875rem;
