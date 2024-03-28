@@ -14,6 +14,7 @@ module.exports = {
     author: `Sohee Moon`,
     siteUrl: `https://soheetech.github.io/TIL/`,
   },
+  pathPrefix: '/TIL',
   plugins: [
     {
       resolve: 'gatsby-plugin-typescript',
