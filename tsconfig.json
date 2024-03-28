@@ -19,6 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*.tsx"],
+  "typeRoots": ["node_modules/@types"],
+  "include": ["src", "src/customTypes.d.ts"],
   "exclude": ["node_modules"]
 }
