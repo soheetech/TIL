@@ -16,21 +16,33 @@ const MarkdownRenderer = styled.div`
 
   // Apply Padding Attribute to All Elements
   p {
-    padding: 5px 0;
+    padding: 12px 0;
   }
 
   // Adjust Heading Element Style
   h1,
   h2,
   h3 {
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 20px;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
   }
 
   * + h1,
   * + h2,
   * + h3 {
     margin-top: 2.5rem;
+  }
+
+  * + h4,
+  * + h5,
+  * + h6 {
+    margin-top: 1.5rem;
   }
 
   hr + h1,
@@ -63,7 +75,7 @@ const MarkdownRenderer = styled.div`
   ol,
   ul {
     margin-left: 20px;
-    padding: 1.5rem 0;
+    padding: 8px 0;
   }
 
   li {

@@ -13,7 +13,7 @@ export type PostHeadInfoProps = {
 const PostHeadWrapper = styled.div`
   border-bottom: 1px solid var(--color-gray);
   padding-bottom: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 `
 
 const Title = styled.h2`
