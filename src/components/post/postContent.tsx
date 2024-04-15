@@ -71,6 +71,10 @@ const MarkdownRenderer = styled.div`
     font-weight: 400;
   }
 
+  strong {
+    font-weight: 500;
+  }
+
   // Adjust List Element Style
   ol,
   ul {
